@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Dental | Odontología del Futuro</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <div class="container-limit">
+            <div class="logo">
+                <i class="fa-solid fa-tooth"></i>
+                <span>LUMINA</span>
+            </div>
+            <nav>
+                <ul id="nav-list">
+                    <li><a href="#hero-wrapper">Inicio</a></li>
+                    <li><a href="#services">Tratamientos</a></li>
+                    <li><a href="#doctors">Especialistas</a></li>
+                    <li><a href="#testimonials">Opiniones</a></li>
+                    <li><a href="#faq">Dudas</a></li>
+
+                    <li><a href="#booking" class="btn btn-primary" style="padding: 8px 20px; border-radius: 30px; font-size: 1.4rem;">Reservar</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    
+    <!-- =========================================
+         NUEVO SLIDER (OPTIMIZADO PARA VELOCIDAD)
+         ========================================= -->
+    <div id="hero-wrapper" style="width: 100%; height: 100vh; overflow: hidden; position: relative;">
+        
+        <!-- Main Slider (Imágenes Grandes) -->
+        <div class="swiper-container main-slider loading">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 1.jpg)">
+                        <!-- Imagen oculta eliminada para ahorrar datos -->
+                    </figure>
+                    <div class="content">
+                        <p class="title">INNOVACIÓN</p>
+                        <span class="caption">Tecnología dental de vanguardia para diagnósticos precisos.</span>
+                    </div>
+                </div>
+                <!-- Slide 2 -->
+                <div class="swiper-slide">
+                    <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 2.jpg)">
+                    </figure>
+                    <div class="content">
+                        <p class="title">CONFIANZA</p>
+                        <span class="caption">Expertos dedicados a cuidar tu sonrisa con los más altos estándares.</span>
+                    </div>
+                </div>
+                <!-- Slide 3 -->
+                <div class="swiper-slide">
+                    <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 3.jpg)">
+                    </figure>
+                    <div class="content">
+                        <p class="title">TECNOLOGÍA</p>
+                        <span class="caption">Equipamiento 3D de última generación para resultados perfectos.</span>
+                    </div>
+                </div>
+                <!-- Slide 4 -->
+                <div class="swiper-slide">
+                    <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 4.webp)">
+                    </figure>
+                    <div class="content">
+                        <p class="title">ESTÉTICA</p>
+                        <span class="caption">Diseños que enamoran y transforman vidas.</span>
+                    </div>
+                </div>
+                <!-- Slide 5 (NUEVO) -->
+                <div class="swiper-slide">
+                    <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 5.webp)">
+                    </figure>
+                    <div class="content">
+                        <p class="title">ORTODONCIA</p>
+                        <span class="caption">Tratamientos invisibles para alinear tu sonrisa sin que nadie lo note.</span>
+                    </div>
+                </div>
+                <!-- Slide 6 (NUEVO) -->
+                <div class="swiper-slide">
+                    <figure class="slide-bgimg" style="background-image:url(imagenes/skider\ 6.webp)">
+                    </figure>
+                    <div class="content">
+                        <p class="title">PREVENCIÓN</p>
+                        <span class="caption">Cuidado integral para mantener tu salud bucal por siempre.</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Botones de navegación -->
+            <div class="swiper-button-prev swiper-button-white"></div>
+            <div class="swiper-button-next swiper-button-white"></div>
+        </div>
+
+            <!-- Thumbnail navigation (Miniaturas - IMÁGENES PEQUEÑAS w=400) -->
+            <div class="swiper-container nav-slider loading">
+                <div class="swiper-wrapper" role="navigation">
+                    <!-- Miniatura 1 -->
+                    <div class="swiper-slide">
+                        <!-- Cambio: w=400 para cargar rápido -->
+                        <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 1.jpg)">
+                        </figure>
+                        <div class="content"><p class="title">Innovación</p></div>
+                    </div>
+                    <!-- Miniatura 2 -->
+                    <div class="swiper-slide">
+                        <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 2.jpg)">
+                        </figure>
+                        <div class="content"><p class="title">Confianza</p></div>
+                    </div>
+                    <!-- Miniatura 3 -->
+                    <div class="swiper-slide">
+                        <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 3.jpg)">
+                        </figure>
+                        <div class="content"><p class="title">Tecnología</p></div>
+                    </div>
+                    <!-- Miniatura 4 -->
+                    <div class="swiper-slide">
+                        <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 4.webp)">
+                        </figure>
+                        <div class="content"><p class="title">Estética</p></div>
+                    </div>
+                    <!-- Miniatura 5 (NUEVO) -->
+                    <div class="swiper-slide">
+                        <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 5.webp)">
+                        </figure>
+                        <div class="content"><p class="title">Ortodoncia</p></div>
+                    </div>
+                    <!-- Miniatura 6 (NUEVO) -->
+                    <div class="swiper-slide">
+                        <figure class="slide-bgimg" style="background-image:url(imagenes/skider\ 6.webp)">
+                        </figure>
+                        <div class="content"><p class="title">Prevención</p></div>
+                    </div>
+                    <!-- Miniatura 7 (NUEVO) -->
+                    <div class="swiper-slide">
+                        <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 7.webp)">
+                        </figure>
+                        <div class="content"><p class="title">Prevención</p></div>
+                    </div>
+                    <!-- Miniatura 8 (NUEVO) -->
+                    <div class="swiper-slide">
+                        <figure class="slide-bgimg" style="background-image:url(imagenes/slider\ 7.webp)">
+                        </figure>
+                        <div class="content"><p class="title">Prevención</p></div>
+                    </div>
+                    <!-- Miniatura 9 (NUEVO) -->
+                    <div class="swiper-slide">
+                        <figure class="slide-bgimg" style="background-image:url(https://images.unsplash.com/photo-1571772996211-2f02c9727629?auto=format&fit=crop&w=400&q=60)">
+                        </figure>
+                        <div class="content"><p class="title">Prevención</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <section id="services" class="section-padding" style="clear: both;">
+        <div class="container-limit">
+            <h2 class="section-title reveal">Servicios Premium</h2>
+            <div class="stage reveal">
+                <div class="element ortodoncia">
+                    <div class="service-info">
+                        <h3>Ortodoncia Invisible</h3>
+                        <p>Alineación perfecta con tecnología de escaneo 3D y férulas invisibles.</p>
+                    </div>
+                </div>
+                <div class="element implantes">
+                    <div class="service-info">
+                        <h3>Implantes Biónicos</h3>
+                        <p>Raíces de titanio de grado médico y coronas de circonio ultra resistentes.</p>
+                    </div>
+                </div>
+                <div class="element estetica">
+                    <div class="service-info">
+                        <h3>Diseño de Sonrisa</h3>
+                        <p>Carillas de porcelana y blanqueamiento láser para un acabado de estrella.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="doctors" class="section-padding">
+        <div class="container-limit">
+            
+            <h2 class="section-title reveal">Expertos Visionarios</h2>
+
+            <div class="carousel-wrapper" id="carouselWrapper">
+                
+                <div class="carousel-3d-container">
+                    <button class="nav-btn prev-btn" id="prevDoc" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+                    <button class="nav-btn next-btn" id="nextDoc" aria-label="Siguiente"><i class="fas fa-chevron-right"></i></button>
+                    
+                    <ul class="carousel-track" id="doctorsTrack">
+                        <!-- JS inserta las cartas aquí -->
+                    </ul>
+                </div>
+
+                <div class="doctor-info-display">
+                    <h3 class="info-name" id="docName">Cargando...</h3>
+                    <p class="info-role" id="docRole">...</p>
+                </div>
+
+                <div class="dots-container" id="dotsNav"></div>
+                
+                <!-- Indicación visual sutil para swipe en móvil -->
+                <p style="font-size: 0.8rem; color: #999; margin-top: 5px; display: none;" id="swipeHint">
+                    <i class="fas fa-hand-pointer"></i> Desliza para navegar
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+   <section id="testimonials" class="testim section-padding">
+    <div style="text-align: center; margin-bottom: 20px;">
+        <h2 class="section-title reveal" style="color: #ea830e;">Historias Reales</h2>
+    </div>
+
+    <div class="wrap">
+        <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+        <span id="left-arrow" class="arrow left fa fa-chevron-left"></span>
+
+        <ul id="testim-dots" class="dots">
+            <li class="dot active"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+            <li class="dot"></li>
+        </ul>
+
+        <div id="testim-content" class="cont">
+            
+            <div class="active">
+                <div class="img"><img src="https://i.pravatar.cc/150?img=5" alt="Carla"></div>
+                <h2>Carla Mendoza</h2>
+                <p><strong>(Ortodoncia)</strong> - "Increíble. Tenía pánico al dentista y aquí ni sentí la anestesia. El diseño de sonrisa cambió mi vida por completo."</p>
+            </div>
+
+            <div>
+                <div class="img"><img src="https://i.pravatar.cc/150?img=11" alt="Jorge"></div>
+                <h2>Jorge Ruiz</h2>
+                <p><strong>(Implantes)</strong> - "La tecnología que usan es de otro planeta. Me mostraron cómo quedaría mi boca en 3D antes de tocarme un solo diente."</p>
+            </div>
+
+            <div>
+                <div class="img"><img src="https://i.pravatar.cc/150?img=9" alt="Ana"></div>
+                <h2>Ana P.</h2>
+                <p><strong>(Estética)</strong> - "Atención de lujo desde que entras. Las instalaciones parecen un spa más que una clínica dental. 100% recomendado."</p>
+            </div>
+            
+            <div>
+                <div class="img"><img src="https://i.pravatar.cc/150?img=8" alt="Familia Torres"></div>
+                <h2>Familia Torres</h2>
+                <p><strong>(Niños)</strong> - "Llevé a mi hijo de 6 años y fue una maravilla. Tienen mucha paciencia y juegos para que no tengan miedo. ¡Salió sonriendo!"</p>
+            </div>
+
+            <div>
+                <div class="img"><img src="https://i.pravatar.cc/150?img=3" alt="Roberto"></div>
+                <h2>Roberto Diaz</h2>
+                <p><strong>(Urgencias)</strong> - "Llegué un domingo con un dolor de muela insoportable. Me atendieron al instante y solucionaron el problema sin dolor."</p>
+            </div>
+
+            <div>
+                <div class="img"><img src="https://i.pravatar.cc/150?img=1" alt="Lucía"></div>
+                <h2>Lucía Méndez</h2>
+                <p><strong>(Limpieza)</strong> - "La limpieza profunda que hacen aquí es superior. Usan ultrasonido y no sentí ninguna molestia. Mis dientes se sienten frescos."</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Solo esta sección es la que agregarás -->
+    <section id="faq" class="section-padding">
+        <div class="container-limit">
+            <h2 class="section-title reveal" style="
+                text-align: center; 
+                font-size: 2.5rem; 
+                margin-bottom: 3rem; 
+                font-weight: 800; 
+                color: #ffffff !important; 
+                text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+                opacity: 1 !important;
+                visibility: visible !important;
+                display: block !important;">
+                Dudas Frecuentes
+            </h2>
+            
+            <div class="faq-flip-grid">
+                
+                <!-- Tarjeta 1: Dolor -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="icon-box"><i class="fas fa-syringe"></i></div>
+                            <h3>¿Duele?</h3>
+                            <p>¿Es doloroso?</p>
+                            <span class="tap-hint"><i class="fas fa-sync-alt"></i> Gira</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="icon-box"><i class="fas fa-smile-beam"></i></div>
+                            <h3>Cero Dolor</h3>
+                            <p>Utilizamos sedación consciente y anestesia digital para una experiencia 100% confortable.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 2: Seguros -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="icon-box"><i class="fas fa-file-medical-alt"></i></div>
+                            <h3>Seguros</h3>
+                            <p>¿Aceptan seguros?</p>
+                            <span class="tap-hint"><i class="fas fa-sync-alt"></i> Gira</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="icon-box"><i class="fas fa-check-circle"></i></div>
+                            <h3>Sí, aceptamos</h3>
+                            <p>Trabajamos con las principales aseguradoras y ofrecemos planes de financiación.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 3: Duración -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="icon-box"><i class="fas fa-clock"></i></div>
+                            <h3>Duración</h3>
+                            <p>¿Cuánto dura?</p>
+                            <span class="tap-hint"><i class="fas fa-sync-alt"></i> Gira</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="icon-box"><i class="fas fa-gem"></i></div>
+                            <h3>10 a 20 Años</h3>
+                            <p>Con el cuidado adecuado, las carillas o resinas pueden durar décadas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarjeta 4: Blanqueamiento -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="icon-box"><i class="fas fa-teeth"></i></div>
+                            <h3>Blanqueamiento</h3>
+                            <p>¿Daña el esmalte?</p>
+                            <span class="tap-hint"><i class="fas fa-sync-alt"></i> Gira</span>
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="icon-box"><i class="fas fa-shield-alt"></i></div>
+                            <h3>Es Seguro</h3>
+                            <p>Usamos geles certificados que protegen tu esmalte mientras aclaran tu sonrisa.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+   <section id="booking" class="section-padding">
+    <div class="parallax-bg" id="parallaxBg"></div>
+    <div class="container-limit reveal">
+        <div class="booking-content-wrapper glass">
+            <div class="booking-info">
+                <h3 style="font-size: 2.5rem; margin-bottom: 25px; font-family: var(--font-heading); line-height: 1.2;">Tu Nueva Sonrisa<br>Empieza Aquí</h3>
+                <p style="margin-bottom: 40px; font-size: 1.5rem; color: #ddd;">Reserva tu cita online y obtén un diagnóstico 3D gratuito.</p>
+                <ul style="line-height: 2.5; font-size: 1.1rem;">
+                    <li><i class="fas fa-check-circle" style="color: #00d2ff; margin-right: 15px;"></i> Tecnología Indolora</li>
+                    <li><i class="fas fa-check-circle" style="color: #00d2ff; margin-right: 15px;"></i> Financiación Flexible</li>
+                    <li><i class="fas fa-check-circle" style="color: #00d2ff; margin-right: 15px;"></i> Garantía de por vida</li>
+                </ul>
+            </div>
+
+            <div class="booking-form-wrapper">
+                <form id="bookingForm">
+                    <div class="form-group">
+                        <input type="text" id="nombre" class="form-input" placeholder=" " required>
+                        <label class="form-label">Nombre Completo</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="tel" id="telefono" class="form-input" placeholder=" " required>
+                        <label class="form-label">Teléfono</label>
+                    </div>
+
+                    <div class="form-group">
+                        <select id="tratamiento" class="form-input" required style="color: #fff; background-color: transparent;">
+                            <option value="" disabled selected hidden></option>
+                            <option value="Ortodoncia" style="background: #111;">Ortodoncia</option>
+                            <option value="Implantes" style="background: #111;">Implantes</option>
+                            <option value="Estetica" style="background: #111;">Estética</option>
+                            <option value="Limpieza" style="background: #111;">Limpieza</option>
+                        </select>
+                        <label class="form-label">Tratamiento de Interés</label>
+                    </div>
+
+                    <div style="display: flex; gap: 15px;">
+                        <div class="form-group" style="flex: 1;">
+                            <input type="date" id="fecha" class="form-input" placeholder=" " required style="color-scheme: dark;"> 
+                            <label class="form-label">Fecha</label>
+                        </div>
+                        <div class="form-group" style="flex: 1;">
+                            <input type="time" id="hora" class="form-input" placeholder=" " required style="color-scheme: dark;">
+                            <label class="form-label">Hora</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Confirmar Cita <i class="fas fa-paper-plane" style="margin-left: 10px;"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="ubicacion" class="section-padding" style="margin-top: 50px; padding-bottom: 50px;">
+    <div class="container-limit reveal">
+        <div style="text-align: center; margin-bottom: 40px;">
+            <h3 style="font-size: 2.5rem; font-family: var(--font-heading); color: #fff;">Visítanos</h3>
+            <p style="color: #ddd; font-size: 1.2rem;">Estamos ubicados en el corazón de la ciudad</p>
+        </div>
+
+        <div class="glass" style="padding: 30px; border-radius: 20px; display: flex; flex-wrap: wrap; gap: 30px;">
+            
+            <div style="flex: 1; min-width: 300px; color: #fff;">
+                <h4 style="font-size: 1.5rem; margin-bottom: 20px; color: #00d2ff;">Contacto Directo</h4>
+                
+                <div style="margin-bottom: 20px; display: flex; align-items: start;">
+                    <i class="fas fa-map-marker-alt" style="font-size: 1.5rem; color: #00d2ff; margin-right: 15px; margin-top: 5px;"></i>
+                    <div>
+                        <strong style="display: block; font-size: 1.1rem;">Dirección:</strong>
+                        <span style="color: #ccc;">Av. Lobato , Oficina 405<br>El Tambo, Huancayo</span>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 20px; display: flex; align-items: center;">
+                    <i class="fas fa-phone-alt" style="font-size: 1.5rem; color: #00d2ff; margin-right: 15px;"></i>
+                    <div>
+                        <strong style="display: block; font-size: 1.1rem;">Teléfono:</strong>
+                        <span style="color: #ccc;">+51 999 999 999</span>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 20px; display: flex; align-items: center;">
+                    <i class="fas fa-envelope" style="font-size: 1.5rem; color: #00d2ff; margin-right: 15px;"></i>
+                    <div>
+                        <strong style="display: block; font-size: 1.1rem;">Email:</strong>
+                        <span style="color: #ccc;">contacto@tuclinica.com</span>
+                    </div>
+                </div>
+
+                <hr style="border-color: rgba(255,255,255,0.1); margin: 20px 0;">
+
+                <h4 style="font-size: 1.5rem; margin-bottom: 15px; color: #00d2ff;">Horario de Atención</h4>
+                <ul style="list-style: none; padding: 0; color: #ccc;">
+                    <li style="margin-bottom: 10px; display: flex; justify-content: space-between;">
+                        <span>Lunes - Viernes:</span> <span>9:00 AM - 8:00 PM</span>
+                    </li>
+                    <li style="margin-bottom: 10px; display: flex; justify-content: space-between;">
+                        <span>Sábados:</span> <span>9:00 AM - 2:00 PM</span>
+                    </li>
+                    <li style="color: #ff6b6b; display: flex; justify-content: space-between;">
+                        <span>Domingos:</span> <span>Cerrado</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div style="flex: 1; min-width: 300px; height: 400px; border-radius: 15px; overflow: hidden; position: relative; margin-left: auto; margin-right: auto; display: block;">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.666996985038!2d-77.03196232402928!3d-12.126027442271876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81f33f86e33%3A0xc34a2307567e916a!2sParque%20Kennedy!5e0!3m2!1ses!2spe!4v1701625000000!5m2!1ses!2spe" 
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <div class="container-limit">
+            <div class="logo" style="justify-content: center; margin-bottom: 20px;">
+                <i class="fa-solid fa-tooth"></i>
+                <span>LUMINA</span>
+            </div>
+            <p style="color: #888;">&copy; 2025 Derechos Reservados Odontofe.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/123456789" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
